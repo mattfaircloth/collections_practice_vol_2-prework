@@ -1,6 +1,6 @@
 def begins_with_r(array)
   array.each do |word|
-   if word[0] != "r"
+   if word.first != "r"
      return false
    else
      return true
