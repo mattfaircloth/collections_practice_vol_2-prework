@@ -1,10 +1,9 @@
-# your code goes here
 def begins_with_r(array)
   array.each do |word|
-   if word[0] == "r"
-     return true
+   if word[0] != "r"
+     return false
    else
-     false
+     return true
    end
  end
 end
