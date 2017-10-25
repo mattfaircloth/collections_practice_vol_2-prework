@@ -1,4 +1,5 @@
 # your code goes here
 def begins_with_r(array)
-  array.include?("r")
+ array.each do |word|
+  word.include?("r")
 end
